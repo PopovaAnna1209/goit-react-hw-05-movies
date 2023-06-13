@@ -3,6 +3,7 @@ import axios from 'axios';
 axios.defaults.baseURL = 'https://api.themoviedb.org/3';
 axios.defaults.params = {
   api_key: 'd1b48761923a369e8cce74e23ff1d843',
+  include_adult: false,
 };
 
 // https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.svg
