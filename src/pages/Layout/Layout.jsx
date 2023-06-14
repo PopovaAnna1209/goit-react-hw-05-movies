@@ -11,7 +11,7 @@ const Layout = () => {
       </Nav>
 
       <Container>
-        <Suspense>
+        <Suspense fallback={null}>
           <Outlet />
         </Suspense>
       </Container>
